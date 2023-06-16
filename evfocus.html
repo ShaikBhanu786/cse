@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script 
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("input").focus(function(){
+    $(this).css("background-color", "yellow");
+  });
+  $("input").blur(function(){
+    $(this).css("background-color", "green");
+  });
+});
+</script>
+</head>
+<body>
+    <center>
+        <br><br><br><br><br><br><br><br><br><br>
+    <table frame="box" cellspacing="10">
+        <tr>
+         <td >Name  <input type="text" size="25"></td>
+         </tr>
+         <tr>
+         <td>Email <input type="text" size="25"></td>
+         </tr>
+    </table></center>
+</body>
+</html>
